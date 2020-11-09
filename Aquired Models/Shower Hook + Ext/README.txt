@@ -1,0 +1,1 @@
+Shower Hook with Extender Loop by abbymath on Thingiverse: https://www.thingiverse.com/thing:4167302

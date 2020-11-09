@@ -1,0 +1,28 @@
+// ShapeScript document
+
+detail 32
+
+cube {
+    position -1.5
+    color 1 0 0
+}
+
+sphere {
+    color 0 1 0
+}
+
+cone {
+    position 1.5
+    color 0 0 1
+}
+
+fill {
+    text {
+        "Juliet"
+    }
+    color 0.5 0.5 0.5
+    orientation 0 0.5 0
+    position 0.75  0  0
+    size 0.1 0.1 0.1
+
+}

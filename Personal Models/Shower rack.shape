@@ -1,0 +1,29 @@
+// ShapeScript document
+
+detail 32
+
+
+define cog {
+    option teeth 6
+    path {
+        define step 1 / teeth
+        for i in 1 to teeth {
+            point -0.1 0
+            point 0.1 0
+            rotate step
+            point -0.1 0
+            point 0.1 0
+            rotate step
+        }
+        // point 0.1 0
+    }
+}
+
+// difference {
+    extrude {
+        size 1 1 0.5
+        cog { teeth 8 }
+    }
+//     rotate 0 0 0.5
+//     cylinder
+// }

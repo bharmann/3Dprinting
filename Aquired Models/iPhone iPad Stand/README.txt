@@ -1,0 +1,1 @@
+Smart Stand - A smart little stand for Smart Devices (Phones and Tablets) by muzz64 on Thingiverse: https://www.thingiverse.com/thing:3416790

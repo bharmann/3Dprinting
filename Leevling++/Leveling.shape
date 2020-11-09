@@ -1,0 +1,68 @@
+// ShapeScript document
+
+detail 96
+
+difference {
+    cube {
+        position 0 0 0
+        color 1 0 0
+        size 160 160 2
+    }
+
+
+    cube {
+        position 0 0 0
+        color 1 1 0
+        size 155 155 2
+    }
+    
+}
+
+difference {
+    cylinder {
+        position 0 0 0
+        color 1 0 0
+        size 100 2 100
+        orientation 0 0 0.5
+    }
+    cylinder {
+        position 0 0 0
+        color 1 0 0
+        size 90 2 90
+        orientation 0 0 0.5
+    }
+}
+
+cylinder {
+    position 0 0 0
+    color 1 0 0
+    size 15 2 15
+    orientation 0 0 0.5
+}
+// difference {
+//     cube {
+//         position 0 0 0
+//         color 1 0 0
+//         size 90 90 2
+//     }
+//
+//
+//     cube {
+//         position 0 0 0
+//         color 1 1 0
+//         size 125 125 2
+//     }
+//
+// }
+// ube {
+//     position 0 0 0
+//     color 1 0 0
+//     size 160 160 2
+// }
+//
+//
+// cube {
+//     position 0 0 0
+//     color 1 1 0
+//     size 100 100 2
+// }
