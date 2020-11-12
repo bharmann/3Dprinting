@@ -1,0 +1,38 @@
+// ShapeScript document
+
+detail 32
+
+define tube  {   
+    difference {
+        cylinder {
+            size 13.5 80 13.5   
+            color 0 1 0
+            orientation 0 0.0 -0.30
+        }
+        cylinder {
+            size 11.5 90 11.5   
+            color 1 1 0
+            orientation 0 0.0 -0.30
+        }
+    
+    }
+} 
+
+difference {
+    tube 
+
+    cylinder {
+        size 40 20 40
+        position 0 -22 -26        
+        // orientation 0 0.0 0.5
+        color 0 0 1
+    } 
+}
+
+
+cylinder {
+    size 20 2 60
+    position 0 -12 -10       
+    // orientation 0 0.0 0.5
+    color 0 0 1
+} 
